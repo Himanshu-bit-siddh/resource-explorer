@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark .MuiAppBar-root {
+  background-color: #1c2526;
+}
+
+body.dark .MuiCard-root {
+  background-color: #1e1e1e;
+}

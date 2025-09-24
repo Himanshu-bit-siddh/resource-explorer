@@ -1,0 +1,29 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root + body clean slate */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background: #fff;  /* pure white bg */
+  color: #000;       /* pure black text */
+}
+
+/* Basic elements */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

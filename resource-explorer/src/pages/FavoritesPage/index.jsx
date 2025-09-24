@@ -58,7 +58,7 @@ export default function FavoritesPage() {
     <StyledContainer>
       <StyledHeaderBox>
         <StyledTitleTypography variant="h4" component="h1">
-          Your Favorite Pokémon
+          Your Favorite Pokemon
         </StyledTitleTypography>
         <StyledSubtitleTypography variant="body1">
           {data.count} favorite{data.count !== 1 ? 's' : ''} found

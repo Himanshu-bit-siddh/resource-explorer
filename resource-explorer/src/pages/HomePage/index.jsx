@@ -4,7 +4,6 @@ import PokemonCardSkeleton from '../../components/common/PokemonCardSkeleton';
 import ErrorState from '../../components/common/ErrorState';
 import EmptyState from '../../components/common/EmptyState';
 import { 
-  Container, 
   Grid, 
   Box, 
   Typography, 
@@ -101,7 +100,7 @@ export default function HomePage() {
                 </StyledTitleTypography>
                 <StyledSubtitleTypography variant="subtitle1">
                   <AutoAwesome />
-                  Discover and collect your favorite Pokémon
+                  Discover and collect your favorite Pokemon
                 </StyledSubtitleTypography>
               </Box>
             </Box>
@@ -190,8 +189,8 @@ export default function HomePage() {
           )}
           
           {!hasNextPage && pokemon.length > 0 && (
-            <Typography variant="body2" color="text.secondary" sx={{ fontStyle: 'italic' }}>
-              You've seen all available Pokémon! 🎉
+            <Typography variant="body2" color="text.secondary">
+              You've seen all available Pokemon!
             </Typography>
           )}
         </Box>

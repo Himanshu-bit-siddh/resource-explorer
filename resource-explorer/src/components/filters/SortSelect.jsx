@@ -45,7 +45,6 @@ export default function SortSelect() {
     >
       <InputLabel>Sort</InputLabel>
       <Select value={searchParams.get('sort') || ''} onChange={handleChange} label="Sort">
-        <MenuItem value="">ID</MenuItem>
         <MenuItem value="name_asc">Name (A-Z)</MenuItem>
         <MenuItem value="name_desc">Name (Z-A)</MenuItem>
       </Select>

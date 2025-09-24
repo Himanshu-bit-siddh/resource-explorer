@@ -5,21 +5,13 @@ import SortSelect from "../filters/SortSelect";
 import { ThemeContext } from "../../context/ThemeContext";
 import { useContext, useState } from "react";
 import {
-  AppBar,
-  Toolbar,
-  Typography,
   Box,
   IconButton,
-  Button,
   useTheme,
   useMediaQuery,
-  Drawer,
   List,
   ListItem,
-  ListItemButton,
   ListItemText,
-  Divider,
-  Container,
 } from "@mui/material";
 import {
   Brightness4,
